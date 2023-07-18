@@ -1,0 +1,13 @@
+Version 1 will end with full freefall functionality,  working bluetooth connection, dynamic graphing, and static table view.
+
+V1 -interface built, no functionality
+
+v1.01 - Table added
+
+v1.1 BEfore bluetooth implementation
+
+v1.2 Bluetooth implemented, starting graphview
+remains: Graphing, bluetooth pairing, data connection to device
+
+v1.2 Graphview fully implemented 
+remains: bluetooth pairing, data flow from device

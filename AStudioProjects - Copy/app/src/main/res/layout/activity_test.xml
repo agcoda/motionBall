@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestActivity">
+
+    <Button
+        android:id="@+id/TestReturn"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="48dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/Return"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/ViewData"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/ViewData" />
+
+    <Button
+        android:id="@+id/Pair"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginLeft="67dp"
+        android:layout_marginRight="67dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="32dp"
+        android:onClick="OpenBluetooth"
+        android:text="@string/Test_Pair"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ViewData"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="12dp"
+        android:onClick="ShowLiveData"
+        android:text="@string/Test_View"
+        app:layout_constraintEnd_toEndOf="@+id/Pair"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Pair"
+        app:layout_constraintTop_toBottomOf="@+id/Pair" />
+
+    <EditText
+        android:id="@+id/Test_Ax"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toStartOf="@+id/Test_Ay"
+        app:layout_constraintTop_toTopOf="@+id/Test_Ay" />
+
+    <EditText
+        android:id="@+id/Test_Az"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toEndOf="@+id/Test_Ay"
+        app:layout_constraintTop_toTopOf="@+id/Test_Ay" />
+
+    <TextView
+        android:id="@+id/Test_AxText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/ax"
+        app:layout_constraintEnd_toEndOf="@+id/Test_Ax"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="@+id/Test_Ax"
+        app:layout_constraintTop_toBottomOf="@+id/Test_Ax" />
+
+    <TextView
+        android:id="@+id/Test_AzText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/az"
+        app:layout_constraintEnd_toEndOf="@+id/Test_Az"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="@+id/Test_Az"
+        app:layout_constraintTop_toBottomOf="@+id/Test_Az" />
+
+    <EditText
+        android:id="@+id/Test_Ay"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ViewData" />
+
+    <TextView
+        android:id="@+id/Test_AyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/ay"
+        app:layout_constraintEnd_toEndOf="@+id/Test_Ay"
+        app:layout_constraintStart_toStartOf="@+id/Test_Ay"
+        app:layout_constraintTop_toBottomOf="@+id/Test_Ay" />
+
+</android.support.constraint.ConstraintLayout>

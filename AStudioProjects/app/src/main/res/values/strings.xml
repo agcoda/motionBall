@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">MotionBall</string>
+    <string name="Main_Title">Motion Ball</string>
+
+    <string name="Main_Feedback">Report Issue</string>
+    <string name="Main_TestButton">Test Connection</string>
+    <string name="Main_FreeFallButton">Free Fall Experiment</string>
+    <string name="Main_UpdateButton">Check for Updates</string>
+    <string name="Main_Other">Coming Soon</string>
+    <string name="Test_Pair">Connect Bluetooth</string>
+    <string name="Test_View">Show Live Data</string>
+    <string name="ax">ax</string>
+    <string name="ay">ay</string>
+    <string name="az">az</string>
+    <string name="Return">Return</string>
+    <string name="Record_Start">Start Collection</string>
+    <string name="Record_Stop">Stop Collection</string>
+    <string name="Record_ShowTable">Show Table</string>
+    <string name="Record_ShowGraph">Show Graph</string>
+    <string name="Test_NoConnection">Device not connected, check bluetooth connection</string>
+    <string name="Record_CollectionNotification">Data is now being collected, hit stop to end collection</string>
+    <string name="Record_Calibrate">Record Upright Position</string>
+    <string name="Record_Help">The Math</string>
+    <string name="Main_NoUpdate">No Updates Available</string>
+    <string name="ok">ok</string>
+    <string name="cancel">cancel</string>
+    <string name="ComingSoon">More features are in the works, ,visit our website for more information.</string>
+    <string name="Record_Upright">Before taking data hold the device upright with the top indicator facing upward then click \"Record Upright Position\"</string>
+    <string name="Record_Explain">For explanation click the button below</string>
+    <string name="Bluetooth_NoSupport">Your device does not support bluetooth, or your bluetooth device is not functioning properly. Sorry but you are unable to take data.</string>
+    <string name="BT_enable">Enable Bluetooth</string>
+    <string name="Main_FreeFall">Free Fall</string>
+    <string name="Time">Time (ms)</string>
+    <string name="Main_PMotion">Projectile Motion \n Coming Soon</string>
+    <string name="Main_Hookes"> Hooke\'s Law \n Coming Soon</string>
+    <string name="Main_Momentum">Momentum \n Coming Soon</string>
+    <string name="FreeFall_Explanation">Everything on Earth is under the affect of gravity.
+        Normally if you hold a ball up in the air you are forcing it to have zero acceleration, but gravity will cause it to accelerate as soon as you release it.\n\n
+        Before taking data consider the following: \n
+        For this experiment the MotionBall will measure the acceleration of the ball and calculate speed and position, so hold it up high, then collect data and then drop the ball. Compare the graphs you see to what you answered above.\n\n
+        You can also hit "view table" to see points on the graph and do some math.
+    </string>
+    <string name="FreeFall_Questions">
+        What would you expect a graph of acceleration vs time to look like?\n
+        What would you expect a graph of speed vs time to look like?\n
+        What would you expect a graph of position vs time to look like?\n\n
+        Compare the graphs you see to what you answered above.\n\n
+    </string>
+</resources>
